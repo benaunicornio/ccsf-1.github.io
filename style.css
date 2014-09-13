@@ -35,9 +35,10 @@ a {                  /* A stands for link, so this section is setting the defaul
 }
 
 h1 {		     /* This styles the header at the top of the page */
-	font: 300 2.1em 'Helvetica Neue','Source Sans Pro',Arial, Sans-Serif;
+	font: 200 3.1em 'Helvetica Neue','Source Sans Pro',Arial, Sans-Serif;
 	text-align: left;
 	color: white;
+    margin:0px
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -89,3 +90,13 @@ div.section {
 	margin-right: 1em;
 }
 
+.subtext {
+    font-size: 12px;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1px;
+border-bottom: 1px dotted #fff;
+margin-bottom: 40px;
+padding-bottom: 20px;
+}
